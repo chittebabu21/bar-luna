@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import '~bootstrap/dist/css/bootstrap.min.css'; */
+
+body, html {
+    max-height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 239, 220);
+}
+
+nav {
+    background: bisque;
+    background: -moz-linear-gradient(-45deg, rgb(247, 172, 80) 0%, rgb(255, 240, 222) 50%, rgb(255, 171, 69) 100%);
+    background: -webkit-linear-gradient(-45deg, rgb(253, 211, 161) 0%, rgb(255, 247, 236) 50%, rgb(250, 196, 129) 100%);
+    background: linear-gradient(135deg, rgb(255, 196, 124) 0%, rgb(255, 254, 252) 50%, rgb(252, 206, 149) 100%); 
+    letter-spacing: 0.5em;
+}
+
+main {
+    height: 20em;
+}
+
+footer {
+    margin: 0;
+    height: 48px;
+}
+
+h1 {
+    letter-spacing: 0.3em;
+}
+
+h4 {
+    letter-spacing: 0.5em;
+}
+
+p {
+    text-align: justify;
+}
+
+.card {
+    width: 30em;
+}
+
+.carousel-item {
+    height: 20em;
+}
